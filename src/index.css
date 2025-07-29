@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, green, yellow, #0d853b);
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    max-width: 100%;
+}
