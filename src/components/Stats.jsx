@@ -1,4 +1,5 @@
 import { useState } from "react";
+import deleteIcon from "../assets/delete.svg";
 
 function Stats({ lots, setLots, spinning }) {
   const [newVal, setNewVal] = useState("");
@@ -97,7 +98,7 @@ function Stats({ lots, setLots, spinning }) {
               onClick={() => deleteLot(index)}
             >
               <img
-                src="./src/assets/delete.svg"
+                src={deleteIcon}
                 alt="Del"
                 className="w-4 sm:w-5"
               />
